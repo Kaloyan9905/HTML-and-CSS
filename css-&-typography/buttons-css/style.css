@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika&display");
+
+.normal-buttons {
+  cursor: pointer;
+  border-radius: 15px;
+  border-width: 0px;
+  height: 30px;
+  width: 90px;
+  color: #6bcdd4;
+  font-family: Andika;
+  background-color: rgba(12, 72, 80, 0.644);
+  font-style: inherit;
+  margin-right: 10px;
+}
+.normal-buttons-test {
+  font-size: large;
+  cursor: pointer;
+  border-radius: 25px;
+  height: 40px;
+  width: 80px;
+  color: black;
+  font-family: Andika;
+  background-color: floralwhite;
+  font-style: inherit;
+  font-size: 10px;
+}
+
+.normal-buttons-test:hover{
+  background-color: darkgrey;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: darkslategray;
+}
+
+article {
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+body {
+  background-color: rgb(203, 245, 245);
+}
