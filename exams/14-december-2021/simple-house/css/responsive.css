@@ -1,0 +1,46 @@
+/* TODO: Add the responsive styles here */
+
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+  .placeholder {
+    width: 100%;
+  }
+
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .tm-nav {
+    text-align: right;
+    margin-top: 30px;
+    float: right;
+    margin-left: 200px;
+  }
+
+  .row {
+    padding: 40px 20px;
+    flex-direction: column;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tm-gallery-page {
+    margin: 0 auto;
+  }
+
+  .tm-gallery {
+    margin-left: 0;
+  }
+
+  .tm-gallery-page {
+    flex-direction: column;
+  }
+}

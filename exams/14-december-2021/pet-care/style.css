@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=PT+Serif&family=Poppins&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans&family=PT+Serif&family=Poppins&display=swap');
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: "Poppins";
+}
+
+p, span, li, a {
+    font-family: "Open Sans";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.head nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 15rem;
+}
+
+.head nav ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.head nav ul li {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.head .article {
+  height: 100vh;
+
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+}
+
+.head .article .content {
+  padding: 2rem;
+  margin-left: 15rem;
+  color: white;
+  width: 32%;
+}
+
+.head .article .content h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.head .article .content #bold {
+  font-weight: bold;
+}
+
+.head .article .content p {
+  font-size: 30px;
+}
+
+.head .article .content button {
+  width: 30%;
+  height: 55px;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff3b0b;
+  background-color: white;
+}
+
+.head .article img {
+  position: absolute;
+  right: 16%;
+  top: 34%;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .services {
+  text-align: center;
+  width: 65%;
+}
+
+.hero .services h1 {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.hero .services #text {
+  font-size: 24px;
+  margin: 1rem 5rem 6rem 5rem;
+}
+
+.hero .services .cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .services .cards .card {
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 4rem 2rem 2rem 2rem;
+  height: 350px;
+  width: 280px;
+}
+
+.hero .services .cards .card h3 {
+  font-size: 30px;
+}
+
+.hero .services .cards .card p {
+  font-size: 19px;
+}
+
+.care {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  padding: 10rem 20rem;
+}
+
+.care .article {
+  padding-top: 7rem;
+  margin-left: 12rem;
+  margin-right: 6rem;
+}
+
+.care .article h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.care .article #bold {
+  font-weight: bold;
+}
+
+.care .article p {
+  font-size: 22px;
+}
+
+.care .article button {
+  width: 150px;
+  height: 55px;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #ff3b0b;
+}
+
+.anipat {
+  width: 100%;
+  text-align: center;
+  padding: 13rem;
+
+  background-image: url("images/cats-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.anipat h1 {
+  font-size: 60px;
+}
+
+.anipat p {
+  font-size: 32px;
+  width: 40%;
+  margin: 2rem auto;
+}
+
+.anipat .contacts {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.anipat .contacts button {
+  width: 180px;
+  height: 55px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff3b0b;
+  background-color: white;
+}
+
+.anipat .contacts a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.anipat .contacts a span {
+  font-weight: bold;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+
+.foot ul {
+  line-height: 3rem;
+}
+
+.foot ul li:nth-child(1) {
+  font-size: 24px;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.foot ul li {
+  font-size: 18px;
+}
+
+.foot ul img {
+  margin-bottom: 1.3rem;
+}
