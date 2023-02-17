@@ -1,0 +1,17 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  background-color: rgb(238, 238, 238);
+  color: rgb(51, 51, 51);
+}
+
+aside {
+    size: 30%;
+}
+
+img {
+    width: 500px;
+}
