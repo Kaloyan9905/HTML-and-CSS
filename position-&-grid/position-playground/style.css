@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+}
+
+.container:first-child {
+  height: 55px;
+  background-image: linear-gradient(to right, purple, black);
+  height: 500px;
+}
+
+.container:last-child {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
+
+  height: 600px;
+}
+
+.container:first-child img,
+.container:last-child img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.container .holder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
