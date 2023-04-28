@@ -1,0 +1,49 @@
+ul li {
+  display: inline-block;
+  position: relative;
+  list-style: none;
+  background-color: rgb(224, 214, 214);
+  padding: 30px;
+  border-radius: 50%;
+}
+
+ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul li a {
+  position: relative;
+  border-radius: 50%;
+  font-size: 30px;
+  color: black;
+}
+
+i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#facebook:hover {
+  color: blueviolet;
+}
+
+#twitter:hover {
+  color: rgb(95, 95, 173);
+}
+
+#googleplus:hover {
+  color: rgba(204, 27, 27, 0.922);
+}
+
+#linkedin:hover {
+  color: rgb(71, 71, 211);
+}
+
+#instagram:hover {
+  color: rgb(108, 151, 137);
+}
