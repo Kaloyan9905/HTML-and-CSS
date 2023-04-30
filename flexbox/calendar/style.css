@@ -1,0 +1,24 @@
+.container {
+    background-color: lightgray;
+    height: 600px;
+    max-width: 65vw;
+}
+
+.container section {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    border: 1px black solid;
+    width: 150px;
+    height: 150px;
+}
+
+.notes {
+    flex-direction: column;
+}
+
+.workweek {
+    width: 150%;
+}
