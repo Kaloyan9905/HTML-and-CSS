@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  background-color: rgb(238, 238, 238);
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+  gap: 10px;
+  flex-direction: row;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img__1,
+.img__3,
+.img__4 {
+  width: 100px;
+}
+
+.img__1,
+.img__2,
+.img__3,
+.img__4 {
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
