@@ -1,0 +1,22 @@
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    gap: 20px;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+    font-weight: 300;
+    font-size: 35px;
+}
