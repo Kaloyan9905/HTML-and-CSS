@@ -1,0 +1,32 @@
+header {
+  width: 98%;
+  height: 120px;
+  display: flex;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  justify-content: space-between;
+  position: relative;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: relative;
+  top: 15px;
+}
+
+header ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 153, 0);
+}
+
+header,
+main {
+  margin: 20px 15px;
+}
