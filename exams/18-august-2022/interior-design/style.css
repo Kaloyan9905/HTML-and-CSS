@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Andika&display=swap');
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-family: "Abril Fatface";
+}
+
+*:not(h1, h2) {
+  font-family: "Roboto";
+}
+
+.content {
+  width: 1200px;
+  height: 1400px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.interior-design,
+.our-services {
+  width: 1200px;
+  height: 700px;
+}
+
+.interior-design {
+  background-color: blueviolet;
+  background-image: url("image/image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  margin: 30px;
+  padding: 20px;
+  width: 140px;
+  height: 140px;
+  box-shadow: rgba(0, 0, 0, 0.65) 2.4px 2.4px 3.2px;
+  border-radius: 2px;
+}
+
+.logo h1 {
+  height: 100px;
+  margin: 0px;
+  font-size: 35px;
+  border-bottom: 1px solid white;
+}
+
+.logo p {
+  font-size: 17px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.product-info {
+  width: 250px;
+  height: 250px;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 13%;
+  right: 5%;
+  background-image: linear-gradient(
+    to right,
+    rgb(118, 185, 164),
+    rgb(193, 206, 199),
+    rgb(247, 247, 247)
+  );
+  box-shadow: rgba(0, 0, 0, 0.35) 2.4px 2.4px 3.2px;
+  border-radius: 5px;
+}
+
+.product-info p {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.product-info i {
+  font-size: 25px;
+  position: absolute;
+  top: 18%;
+  right: 5%;
+}
+
+/* ..............section2............. */
+
+.our-services {
+  background-color: lightcyan;
+  width: 760px;
+  padding: 50px 60px;
+}
+
+.our-services h1 {
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.our-services i {
+  font-size: 15px;
+  padding-right: 7px;
+}
+
+.services-info {
+  height: 410px;
+}
+
+.services-info p {
+  padding-bottom: 15px;
+  padding-right: 25px;
+  font-size: 17px;
+}
+
+.contact {
+  position: relative;
+  top: 5%;
+}
+.contacts-info {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  flex-direction: row;
+  border-top: 1px solid black;
+  width: 650px;
+}
+
+.contacts-info p {
+  font-size: 15px;
+}
+
+.contacts-info b {
+  font-style: italic;
+  margin-right: 6px;
+}
+
+.buttons button {
+  border-radius: 4px;
+  height: 35px;
+  margin: auto;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons .email {
+  background-color: rgb(134, 173, 134);
+  color: white;
+  width: 250px;
+}
+
+.buttons .get-started {
+  width: 100px;
+  color: white;
+  background-color: green;
+}
+
+/* .............aside.............. */
+
+.aside-info {
+  position: absolute;
+  background-color: rgb(193, 206, 199);
+  width: 320px;
+  height: 750px;
+  right: 0%;
+  top: 46.4%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.aside-info div {
+  margin: 35px;
+}
+
+.aside-info div h2 {
+  font-size: 60px;
+  margin: 0px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 100;
+}
+
+.aside-info div p {
+  font-size: 16px;
+  margin-top: 0px;
+  font-weight: 200;
+  text-transform: uppercase;
+}

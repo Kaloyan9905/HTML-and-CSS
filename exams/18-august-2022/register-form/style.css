@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mulish/v12/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNR8aOvG4w-.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  overflow: hidden;
+  font-size: 12px;
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container .elements {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  height: 600px;
+  align-self: center;
+  position: relative;
+}
+
+.container .elements img {
+  align-self: center;
+  width: 720px;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* ............elements........... */
+
+.container .elements .search-bars {
+  width: 340px;
+  height: 370px;
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+
+.search-bars-inline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "first second"
+    "third third"
+    "fourth fourth"
+    "fifth fifth";
+}
+
+.first-bar-container {
+  grid-area: first;
+}
+
+.second-bar-container {
+  grid-area: second;
+}
+
+.third-bar-container {
+  grid-area: third;
+}
+
+.fourth-bar-container {
+  grid-area: fourth;
+}
+
+.fifth-bar-container {
+  grid-area: fifth;
+}
+
+.first-bar,
+.second-bar,
+.third-bar,
+.fourth-bar,
+.fifth-bar,
+button {
+  height: 32px;
+  border-radius: 25px;
+  border: 1.2px solid lightgray;
+}
+
+.first-bar,
+.second-bar {
+  width: 150px;
+}
+
+.third-bar,
+.fourth-bar,
+.fifth-bar {
+  width: 325px;
+}
+
+.first-name,
+.last-name,
+.email,
+.password,
+.confirm-password {
+  margin-bottom: 3px;
+  margin-left: 2px;
+}
+
+.checkbox-container {
+  display: flex;
+  width: 340px;
+  height: 20px;
+  position: absolute;
+  top: 73%;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+}
+
+.checkbox-text {
+  margin-top: 3.5px;
+}
+
+button {
+  width: 130px;
+  height: 34px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 87%;
+  left: 48%;
+  transform: translate(-50%);
+  background-color: rgb(189, 35, 35);
+  color: wheat;
+}
+
+h1 {
+  position: absolute;
+  top: 17%;
+  left: 16%;
+  font-size: 20px;
+}
