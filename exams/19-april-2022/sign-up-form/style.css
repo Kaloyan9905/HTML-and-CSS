@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300&family=PT+Sans&display=swap");
+
+main {
+  width: 900px;
+  height: 550px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  font-family: "Open Sans";
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.softuni,
+.register {
+  flex: 50%;
+}
+
+.softuni {
+  background-image: url("image/cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 8px 6px -6px black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 0px 300px 200px 0px rgb(8, 8, 8);
+}
+
+.softuni h5 {
+  font-size: 18px;
+  padding: 0px 30px;
+}
+
+.softuni .text {
+  align-self: center;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.softuni .text h2 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  margin-top: 90px;
+  margin-bottom: 0px;
+}
+
+.softuni .text h3 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 25px;
+  font-weight: 200;
+  margin-bottom: 90px;
+}
+
+.softuni .icons {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  position: absolute;
+  bottom: 20px;
+  gap: 10px;
+  width: 70px;
+  justify-content: space-around;
+}
+
+.register {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  color: rgb(106, 112, 106);
+}
+
+.register div:not(.links) {
+  width: 90%;
+  margin-left: 30px;
+  height: 70px;
+}
+
+.register div p {
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.register div p:nth-child(1) {
+  margin-top: 40px;
+}
+
+.register input {
+  border: none;
+  height: 30px;
+  width: 90%;
+  font-size: 18px;
+  padding-top: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.register .links {
+    width: 300px;
+    position: absolute;
+    bottom: 7.5%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.links button {
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    margin-right: 5px;
+    color: white;
+    background-color: black;
+}
+
+.links a {
+    font-weight: bold;
+    color: inherit;
+}

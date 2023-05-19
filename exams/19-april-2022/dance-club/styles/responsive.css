@@ -1,0 +1,47 @@
+@media (max-width: 800px) {
+  header .menu,
+  header .menu ul {
+    flex-direction: column;
+  }
+
+  header .menu ul {
+    align-items: center;
+    padding: 0px;
+  }
+
+  header div {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+      url("/exams/19-april-2022/dance-club/image/dancing-girl.png") no-repeat
+        center center;
+  }
+
+  .trainings {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .trainings div {
+    width: 400px;
+  }
+
+  .instructors .instructors-pic {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .getInTouch {
+    display: block;
+  }
+
+  .getInTouch .map {
+    margin-bottom: 25px;
+  }
+
+  .site-footer .wrapper {
+    flex-wrap: wrap;
+  }
+
+  .site-footer .wrapper .about {
+    flex-basis: 100%;
+  }
+}
