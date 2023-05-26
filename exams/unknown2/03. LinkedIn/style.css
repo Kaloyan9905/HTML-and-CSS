@@ -1,0 +1,32 @@
+.head {
+}
+
+.head .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0rem 5rem;
+}
+
+.head .nav img {
+  width: 250px;
+  height: 100px;
+}
+
+.head .nav .buttons button {
+  border-radius: 20px;
+  height: 40px;
+  width: 120px;
+  font-size: 16px;
+}
+
+.head .nav .buttons button:nth-child(1) {
+  border: none;
+}
+
+.head .nav .buttons button:nth-child(2) {
+  border-color: blue;
+  color: blue;
+  margin: auto 0.6rem;
+}
